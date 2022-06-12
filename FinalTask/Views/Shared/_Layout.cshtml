@@ -1,0 +1,127 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/sass/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>@ViewBag.Title</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">  
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 icons">
+                        <ul class="d-flex list-unstyled mt-3">
+                            <li class="gmail"><a href=""><i class="@layoutservis.GetDatas().Result.FirstOrDefault(s=>s.Key=="email").IconUrl"></i>@layoutservis.GetDatas().Result.FirstOrDefault(e=>e.Key=="email").Name</a>
+                            </li>
+                            <li><a href=""><i class="@layoutservis.GetDatas().Result.FirstOrDefault(s=>s.Key=="phone").IconUrl"></i>@layoutservis.GetDatas().Result.FirstOrDefault(p=>p.Key=="phone").Name</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 socialmedia">
+                        <ul class="justify-content-end d-flex list-unstyled mt-3">
+                            <li><a href=""><i class="@layoutservis.GetDatas().Result.FirstOrDefault(s=>s.Key=="twitter").IconUrl"></i></a></li>
+                            <li><a href=""><i class="@layoutservis.GetDatas().Result.FirstOrDefault(s=>s.Key=="facebook").IconUrl"></i></a></li>
+                            <li><a href=""><i class="@layoutservis.GetDatas().Result.FirstOrDefault(s=>s.Key=="instagram").IconUrl"></i></a></li>
+                            <li><a href=""><i class="@layoutservis.GetDatas().Result.FirstOrDefault(s=>s.Key=="linkedin").IconUrl"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 logo">
+                        <h2 class="mt-2">ETERNA</h2>
+                    </div>
+                    <div class="col-lg-9 navbar">
+                        <ul class="justify-content-end d-flex list-unstyled ">
+                            <li class="justify-content-between"><a href="">Home</a></li>
+                            <li class="justify-content-between"><a href="">About</a></li>
+                            <li class="justify-content-between"><a href="">Services</a></li>
+                            <li class="justify-content-between"><a href="">Portfolio</a></li>
+                            <li class="justify-content-between"><a href="">Team</a></li>
+                            <li class="justify-content-between"><a href="">Pricing</a></li>
+                            <li class="justify-content-between"><a href="">Blog</a></li>
+                            <li class="justify-content-between"><a href="">Drop Down <i
+                                        class="fa-solid fa-angle-down"></i></a></li>
+                            <li class="justify-content-between"><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+   @RenderBody()
+    <footer id="about">
+        <div class="container mt-5 searcharea">
+            <div class="row">
+                <div class="col-lg-6 newsletter mt-3">
+                    <h3>Our Newsletter</h3>
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                </div>
+                <div class="col-lg-6 search mt-5 ">  
+                    <form action="" method="post"> 
+                        <input class="inp">
+                        <input class="sub" type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 links"> 
+                    <h4>Useful Links</h4>
+                    <p><a  href=""><i class="fa-solid fa-angle-right"></i> Home</a></p>
+                    <p><a href=""><i class="fa-solid fa-angle-right"></i> About us</a></p>
+                    <p><a href=""><i class="fa-solid fa-angle-right"></i> Services</a></p>
+                    <p><a href=""><i class="fa-solid fa-angle-right"></i> Terms of service</a></p>
+                    <p><a href=""><i class="fa-solid fa-angle-right"></i> Privacy policy</a></p>
+                </div>
+                <div class="col-lg-3 links">
+                    <h4>Our Services</h4>
+                    <p><a  href=""><i class="fa-solid fa-angle-right"></i> Web Design</a></p>
+                    <p><a href=""><i class="fa-solid fa-angle-right"></i> Web Development</a></p>
+                    <p><a href=""><i class="fa-solid fa-angle-right"></i> Product Management</a></p>
+                    <p><a href=""><i class="fa-solid fa-angle-right"></i> Marketing</a></p>
+                    <p><a href=""><i class="fa-solid fa-angle-right"></i> Graphic Design</a></p>
+                </div>
+                <div class="col-lg-3 links">
+                    <h4>Contact Us</h4>
+                    <p>AZ062 20 January <br>
+                       Baku, AZ1005 <br>
+                       Azerbaijan <br>
+                    </p>
+                    <h6>Phone: <p>@layoutservis.GetDatas().Result.FirstOrDefault(s=>s.Key=="phone").Name</p></h6>
+                    <h6>Email: <p>@layoutservis.GetDatas().Result.FirstOrDefault(s=>s.Key=="email").Name</p></h6>
+                </div>
+                <div class="col-lg-3 links">
+                    <h4>About Eterna</h4>
+                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                    <i class="@layoutservis.GetDatas().Result.FirstOrDefault(s=>s.Key=="twitter").IconUrl"></i>
+                    <i class="@layoutservis.GetDatas().Result.FirstOrDefault(s=>s.Key=="facebook").IconUrl"></i>
+                    <i class="@layoutservis.GetDatas().Result.FirstOrDefault(s=>s.Key=="instagram").IconUrl"></i>
+                    <i class="@layoutservis.GetDatas().Result.FirstOrDefault(s=>s.Key=="skype").IconUrl"></i>
+                    <i class="@layoutservis.GetDatas().Result.FirstOrDefault(s=>s.Key=="linkedin").IconUrl"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row text-center">
+               <p>© Copyright ETERNA. All Rights Reserved</p>
+               <p class="khalitov">Designed by KHALITOV</p>
+            </div>
+        </div>
+    </footer>
+    <script src="~/assets/js/script.js"></script>
+</body>
+
+</html>

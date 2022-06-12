@@ -1,0 +1,221 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.header-top {
+  background-color: #3d3c3c;
+}
+
+.header-top .container .row .socialmedia ul li a:hover {
+  color: white;
+}
+
+.header-top .container .row .socialmedia ul li a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #878585;
+}
+
+.header-top .container .row .icons ul li a:hover {
+  color: #e96b56;
+}
+
+.header-top .container .row .icons ul li a {
+  margin-right: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+.header-top .container .row .icons ul li a i {
+  color: #e96b56;
+}
+
+.header-bottom .container .row .logo h2 {
+  border-left: 10px solid #e96b56;
+}
+
+.header-bottom .container .row .navbar ul li {
+  margin: 16px;
+}
+
+.header-bottom .container .row .navbar ul li a:hover {
+  color: #e96b56;
+}
+
+.header-bottom .container .row .navbar ul li a {
+  text-decoration: none;
+  margin-bottom: 50px;
+  color: #444444;
+}
+
+#home {
+  background-color: whitesmoke;
+}
+
+#home .container .row .logo h6 a {
+  text-decoration: none;
+  color: #e96b56;
+}
+
+#cards .container .row .maincard .box {
+  width: 400px;
+  height: 350px;
+  border: solid 1px #dfd2d2;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#cards .container .row .maincard .box:hover {
+  background-color: #e96b56;
+}
+
+#cards .container .row .maincard .box:hover .basket .icon {
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#cards .container .row .maincard .box:hover .basket .icon i {
+  color: #e96b56;
+}
+
+#cards .container .row .maincard .box:hover .title h4 {
+  color: white;
+}
+
+#cards .container .row .maincard .box:hover .text p {
+  color: white;
+}
+
+#cards .container .row .maincard .box .basket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#cards .container .row .maincard .box .basket .icon {
+  -webkit-box-shadow: #ecb9b0 -5px 5px;
+          box-shadow: #ecb9b0 -5px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #e96b56;
+  border-radius: 8px;
+}
+
+#cards .container .row .maincard .box .basket .icon i {
+  font-size: 25px;
+  color: white;
+  -webkit-box-shadow: black;
+          box-shadow: black;
+}
+
+#cards .container .row .maincard .box .basket .title h4 {
+  text-align: center;
+}
+
+#cards .container .row .maincard .box .basket .text p {
+  text-align: center;
+}
+
+#cards .container .row .progress {
+  margin: 50px 0 0 0;
+}
+
+#cards .container .row .skills h2 {
+  border-bottom: 4px solid #e96b56;
+}
+
+#about {
+  background-color: #404040;
+}
+
+#about .container .row .links i {
+  font-size: 20px;
+  color: #e1dcdc;
+}
+
+#about .container .row .links i:hover {
+  color: #e96b56;
+}
+
+#about .container .row .links h6 {
+  color: #e96b56;
+}
+
+#about .container .row .links h4 {
+  color: white;
+}
+
+#about .container .row .links p {
+  color: white;
+}
+
+#about .container .row .links p a {
+  text-decoration: none;
+  color: white;
+}
+
+#about .container .row .links p a i {
+  color: #e96b56;
+}
+
+#about .searcharea {
+  padding: 30px;
+}
+
+#about .searcharea .row .newsletter {
+  color: white;
+}
+
+#about .searcharea .row .search form {
+  background: white;
+  padding: 10px;
+  position: relative;
+  border-radius: 50px;
+}
+
+#about .searcharea .row .search form .inp {
+  border: white;
+  padding: 0 50px;
+}
+
+#about .searcharea .row .search form .sub {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 30px;
+  margin: 3px;
+  background: #e96b56;
+  color: white;
+  border-radius: 50px;
+}
+
+#about .container .row p {
+  color: white;
+}
+
+#about .container .row .khalitov {
+  color: #e96b56;
+}
+/*# sourceMappingURL=style.css.map */
