@@ -14,5 +14,6 @@ namespace FinalTask.DAL
         public DbSet<Card> Carts { get; set; }
         public DbSet<Skill> Skills { get; set; }
         public DbSet<Statistica> Statics { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
     }
 }
