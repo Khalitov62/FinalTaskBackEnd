@@ -218,4 +218,155 @@
 #about .container .row .khalitov {
   color: #e96b56;
 }
+
+#slider .carousel-inner {
+  position: relative;
+}
+
+#slider .carousel-inner .info {
+  position: absolute;
+  bottom: 30%;
+}
+
+#slider .carousel-inner .info button {
+  width: 15%;
+  margin: 20px;
+  background-color: #e96b56;
+  padding: 8px;
+}
+
+#slider .carousel-inner .info button:hover {
+  background-color: white;
+  color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#slider .carousel-inner .carousel-item {
+  height: 60vh;
+  width: 100%;
+}
+
+#slider .carousel-inner .carousel-item img {
+  opacity: 70%;
+}
+
+#slider .carousel-inner h2 {
+  color: black;
+  font-weight: 500;
+  font-size: 60px;
+  margin: 15px;
+}
+
+#slider .carousel-inner p {
+  color: #444444;
+  font-size: 18px;
+}
+
+.container .row .card {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  border-radius: 5%;
+}
+
+.container .row .card:hover {
+  background-color: #e96b56;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.container .row .card:hover .card-body i {
+  color: white;
+}
+
+.container .row .card:hover .card-body h5 {
+  color: white;
+}
+
+.container .row .card:hover .card-body p {
+  color: white;
+}
+
+.container .row .card .card-body i {
+  font-size: 30px;
+  color: #e96b56;
+}
+
+.container .row .card .card-body h5 {
+  font-weight: 700;
+  color: #545454;
+}
+
+.container .row .card .card-body h5 p {
+  color: #545454;
+}
+
+.container .row .aboutus {
+  color: #545454;
+}
+
+.container .row .aboutus .ulamco {
+  font-size: 17px;
+}
+
+.container .row .aboutus .icon {
+  color: #e96b56;
+  font-size: 20px;
+}
+
+.container .row body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 5px;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+
+.container .row .slider {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+
+.container .row .slider .slide-track {
+  -webkit-animation: scroll 60s linear infinite;
+          animation: scroll 60s linear infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.container .row .slider .slide {
+  height: 100px;
+  width: 250px;
+  font-size: 10px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -8631,11 +8631,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\OneDrive\\Masaüstü\\FinalTask\\FinalTask\\FinalTask.csproj",
+      "projectUniqueName": "C:\\Users\\user\\OneDrive\\Masaüstü\\FinalTaskBackEnd\\FinalTask\\FinalTask.csproj",
       "projectName": "FinalTask",
-      "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\FinalTask\\FinalTask\\FinalTask.csproj",
+      "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\FinalTaskBackEnd\\FinalTask\\FinalTask.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\FinalTask\\FinalTask\\obj\\",
+      "outputPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\FinalTaskBackEnd\\FinalTask\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -47,13 +47,16 @@ namespace FinalTask
 
             app.UseEndpoints(endpoints =>
             {
-                //endpoints.MapControllerRoute(
-                //    name: "default",    
-                //    pattern: "{controller=services}/{action=Index}/{id?}"
-                //    );
+                endpoints.MapControllerRoute(
+                     name: "areas",
+                      pattern: "{area:exists}/{controller=dashboard}/{action=Index}/{id?}"
+                    );
+                     
+                    
+                
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Services}/{action=index}/{id?}"
+                    pattern: "{controller=home}/{action=index}/{id?}"
                     );
             });
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AD7A8pOvMnbHMPMl1/s8PajVhlVLS5PZUOXvF3LALSd4T/Wj9NZy0fRLcpHxUAA0FsvZOfod+u1R8M7jIIJ2JA==",
+  "dgSpecHash": "iYItLkMTTm0UklOyg12hXqDd+7wv1JqdmyOFDqjfXw4mVZaCoojNfdMJt/MtbHN54H9WuqoYk9UxyXME38LVwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\OneDrive\\Masaüstü\\FinalTask\\FinalTask\\FinalTask.csproj",
+  "projectFilePath": "C:\\Users\\user\\OneDrive\\Masaüstü\\FinalTaskBackEnd\\FinalTask\\FinalTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.25\\microsoft.aspnetcore.cryptography.internal.3.1.25.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.25\\microsoft.aspnetcore.cryptography.keyderivation.3.1.25.nupkg.sha512",

@@ -15,5 +15,10 @@ namespace FinalTask.DAL
         public DbSet<Skill> Skills { get; set; }
         public DbSet<Statistica> Statics { get; set; }
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Aboutcard> AboutCards { get; set; }
+        public DbSet<AboutImg> AboutImgs { get; set; }
+        public DbSet<HomeCard> HomeCards { get; set; }
+        public DbSet<HomeBrands> HomeBrands { get; set; }
+
     }
 }
